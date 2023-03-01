@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/main.css" />
     <script src="scripts/main.js"></script>
-</head>
-<body>
-    <h1 class="titulo fonte">Titulo</h1>
-    <button onclick="imprimirAlgo('qualquer coisa')">Ok</button>
-</body>
+  </head>
+  <body>
+    <h1 class="titulo fonte">Formulario de Contato</h1>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" />
+    <br />
+    <label for="email">email:</label>
+    <input type="text" name="email" />
+    <br />
+    <label for="assunto">assunto:</label>
+    <br />
+    <select name="select">
+        <option value="valor1">Reportar erro</option>
+        <option value="valor2" selected>Atualizar cadastro</option>
+        <option value="valor3">Finalizar</option>
+      </select>
+      <br /><br /><br />
+
+    <br />
+    <label for="mensagem">mensagem</label>
+    <input type="mensagem" name="mensagem" />
+    <br />
+    <button>Enviar</button>
+  </body>
 </html>
